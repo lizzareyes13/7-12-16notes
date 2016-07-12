@@ -1,0 +1,54 @@
+function Pokemon(hp, name, level){
+	this.hp = hp;
+	this.name = name;
+	this.level = level;
+
+}
+
+Pokemon.protype.speak = function(){
+	return this.name +", "+this.name+"!";
+};
+
+var squirtle = new Pokemon(15, "squirtle", 1);
+
+
+
+recursion:
+
+function fibonacci(n){
+  if  (n<=1) return 1;
+  return fibonacci(n-1) + fibonacci(n-2);
+}
+
+f(0) = 1
+f(1)
+f(2)
+f(3)
+f(4)
+f(5)
+
+----------------------------------------------------------------------------------------------------------------------------------
+** function factorial(n){
+  if ( n <=1 ) return 1;
+  return fact(n-1)*n;
+}
+
+fact(4) =
+	fact(3) =
+
+
+// write a recursive function which receives a positive interger n as a parameter and returns the sum of all intergers 1 to n
+
+function sumAll(n){
+  if (n===0) return 0;
+  return sumAll(n-1)+n;
+
+
+
+// write a function that receives positive interger n as a parameter
+ and returns the product of all intergers between 3 and n which are
+multiples of 3 and 5
+
+function prod3sand5s(n){
+  if (n < 3) return 1;
+  if (n % 3 === 0 || n % 5
